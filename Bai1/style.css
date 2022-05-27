@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.todo {
+    margin-top: 10px;
+    width: 200px;
+    padding-left: 20px;
+
+}
+
+.container {
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.learnReact {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+.delete {
+    background-color: rgb(103, 19, 76);
+    color: white;
+    margin: 5px 0;
+    width: 80px;
+    border-radius:5px;
+    cursor: pointer;
+    height: 36px;
+    margin-left: 124px;
+}
+
+.modal {
+    text-align: center;
+    display: block;
+    width: 30%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 15px;
+    margin: auto;
+    display: none;
+    border-radius: 5px;
+}
+
+.title {
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.comfirm {
+    background-color: rgb(103, 19, 76);
+    color: white;
+    margin: auto;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.cancel {
+    margin: auto;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.comfirm:hover,
+.cancel:hover {
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+    background-color: rgb(79, 76, 76);
+}
+
+.show .modal {
+    display: block;
+}
