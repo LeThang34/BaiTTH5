@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+}
+
+.container{
+    display: block;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 40%;
+
+}
+
+h1{
+    padding: 10px;
+}
+
+.todo{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    justify-content: space-between ;
+}
+.name {
+    text-align: left;
+    width: 240px;
+}
+
+.status{
+    color: red;
+}
